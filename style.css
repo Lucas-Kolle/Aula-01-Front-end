@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh; /*pega o tamanho da tela*/
+    display: flex;
+    justify-content:center ; /*alinhas na horizontal*/
+    align-items: center; /*alinha na vertical*/
+    flex-direction: column; /*muda a direção do display flex para coluna*/
+    gap: 12px; /*espaço entre as coisas*/
+}
