@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- O mais correto é colocar o javascript no head -->
+    <script src="./main.js" defer></script> <!-- O defer serve para caregar o javascript ao mesmo tempo do html -->
     <title>Trocar cor</title>
 </head>
-<body>
-    <!-- A tag input serve -->
-    <input type="text">
-    <button>Trocar COR</button>
+<body class="cor">
+    <!-- A tag input serve pra criar campos de entrada de dados em formulários-->
+    <input type="text" id="cor">
+    <button id="trocar-cor">Trocar COR</button>
 </body>
 </html>
