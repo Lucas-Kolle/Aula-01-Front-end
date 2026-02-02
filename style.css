@@ -14,6 +14,9 @@ body{
     flex-direction: column; /*muda a direção do display flex para coluna*/
     gap: 12px; /*espaço entre as coisas*/
 }
+#titulo-explicativo{
+    font-size: 60px;
+}
 .cor{
     background-color: var(--cor-bg);
 }
