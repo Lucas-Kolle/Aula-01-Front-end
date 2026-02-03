@@ -5,8 +5,16 @@ const botaoTrocarCor = document.getElementById("trocar-cor")
 function trocarCor (){
 
     let cor = document.getElementById("cor").value 
-    document.documentElement.style.setProperty("--cor-bg", cor)
-    document.documentElement.style.setProperty("--cor-bg", cor)
+    
+    if(cor == "roxo"){
+        const corRoxa = "purple"
+        cor = corRoxa
+        document.documentElement.style.setProperty("--cor-bg", cor)
+    }else if(cor == "amarelo"){
+        const corAmarela = "amarelo"
+        cor = corAmarela
+        document.documentElement.style.setProperty("--cor-bg", cor)
+    }
 }
 
 botaoTrocarCor.addEventListener("click", trocarCor)
