@@ -15,8 +15,8 @@ body{
     gap: 12px; /*espaço entre as coisas*/
 }
 #titulo-explicativo{
-    font-size: 60px;
+    font-size: 60px; /*Aumenta o tamanho da fonte*/
 }
 .cor{
-    background-color: var(--cor-bg);
+    background-color: var(--cor-bg); /*muda a cor do fundo*/
 }

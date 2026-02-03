@@ -10,9 +10,22 @@ function trocarCor (){
         const corRoxa = "purple"
         cor = corRoxa
         document.documentElement.style.setProperty("--cor-bg", cor)
+
     }else if(cor == "amarelo"){
-        const corAmarela = "amarelo"
+        const corAmarela = "yellow"
         cor = corAmarela
+        document.documentElement.style.setProperty("--cor-bg", cor)
+
+    }else if(cor == "azul"){
+        const corAzul = "blue"
+        cor = corAzul
+        document.documentElement.style.setProperty("--cor-bg", cor)
+
+    }else if(cor == "laranja"){
+        const corLaranja = "orange"
+        cor = corLaranja
+        document.documentElement.style.setProperty("--cor-bg", cor)
+    }else{
         document.documentElement.style.setProperty("--cor-bg", cor)
     }
 }
